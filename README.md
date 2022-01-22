@@ -12,3 +12,10 @@ Choose a entropy first, and if the difference of the provided power between the 
 
 ## My Algorithm
 This algorithm is an optimization of entropy, the difference between this algorithm and entropy is that when choosing new BS, entropy tends to choose the BS providing the strongest BS, however, my algorithm tends to choose the nearest BS associated with the car.
+
+## How to run this repository
+
+1. First, clone this repo by enter
+```
+git clone https://github.com/KyleShao1016/Wireless-Network-Handoff-Algorithm.git
+```

@@ -15,7 +15,21 @@ This algorithm is an optimization of entropy, the difference between this algori
 
 ## How to run this repository
 
-1. First, clone this repo by enter
+1. Clone this repo by enter
 ```
 git clone https://github.com/KyleShao1016/Wireless-Network-Handoff-Algorithm.git
 ```
+2. Now, you can run the file 'always_oncall.py' by enter
+```
+python3 always_oncall.py # this file simulates the scenario that everycars always on-call.
+```
+or run the file 'random_select_oncall_cars.py'
+```
+python3 random_select_oncall_cars.py # this file simulates the actual scenario that randomly select a car to call and also randomly assign the holding time to it. 
+```
+3. The default algorithm would be Best-Effort, if you want to change the algorithm, just enter the corresponding key below to change the algorithm.
+** 1 -> Best-Effort **
+** 2 -> Entropy **
+** 3 -> Threshold **
+** 4 -> My Algorithm **
+And for 'random_select_oncall_cars.py', because the color of cars which not currently on-call will be black, if you want to make the existed cars invisible, just press key '5', and press '6' to make it visible.
